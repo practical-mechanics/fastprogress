@@ -82,4 +82,4 @@ def in_notebook():
         else: return False  # Other type (?)
     except NameError: return False      # Probably standard Python interpreter
 
-IN_NOTEBOOK = in_notebook()
+IN_NOTEBOOK = False
